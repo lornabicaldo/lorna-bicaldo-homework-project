@@ -97,3 +97,27 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .project-photo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  .app-info {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
+}
